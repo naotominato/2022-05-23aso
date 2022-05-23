@@ -1,0 +1,98 @@
+body {
+  max-width: 1300px;
+  font-family: 'Gorditas', cursive;
+  font-family: 'Shippori Mincho', serif;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------header-------*/
+
+.header {
+  height: 70px;
+}
+
+.header__logo {
+  font-family: 'Gorditas',
+cursive;
+  color: #55bbbb;
+  font-size: 24px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/*-------content-------*/
+
+.firstview {
+  background: url(../img/img/fv.png)no-repeat right/cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.firstview__content {
+
+}
+
+.firstview__content__ttl {
+  font-size: 28px;
+}
+
+.span--color  {
+  color: #55bbbb;
+  font-size: 44px;
+}
+
+.span--black {
+  font-size: 44px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price__icon {
+  background: #FF4384;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.price__text {
+  margin-left: 10px;
+}
+
+.price__txt1 {
+  color: #55bbbb;
+  font-size: 14px;
+}
+
+.price__txt2 {
+  color: #FF4384;
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+.btn {
+  
+}
